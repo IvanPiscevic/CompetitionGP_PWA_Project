@@ -233,12 +233,29 @@ a:hover.categoryTitle {
 .form_submit {
     width: 300px;
     height: 40px;
+    margin-bottom: 5px;
 
     background-color: var(--color-blackCoffee);
     color: var(--color-alabaster);
     border: 1px solid var(--color-alabaster);
+    font-size: 18px;
 
     transition: all 1 ease-in;
+}
+
+.form_reset {
+    background-color: var(--color-white);
+    color: var(--color-black);
+}
+
+.form_update {
+    background-color: lightblue;
+    color: var(--color-black);
+}
+
+.form_delete {
+    background-color: red;
+    color: var(--color-black);
 }
 
 .form_submit:hover {

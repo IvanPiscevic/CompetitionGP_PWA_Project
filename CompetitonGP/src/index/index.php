@@ -25,7 +25,7 @@
                 <a href="index.php">Home</a>
                 <a href="../category/category.php?id=formula1">Formula 1</a>
                 <a href="../category/category.php?id=wrc">WRC</a>
-                <a href="../administration/administration.php">Administration</a>
+                <a href="../administration/allNews.php">Administration</a>
                 <a href="../insert/unos.html">Insert</a>
             </nav>
         </div>
