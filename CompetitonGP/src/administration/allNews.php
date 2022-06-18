@@ -29,6 +29,7 @@
                 <a href="../category/category.php?id=wrc">WRC</a>
                 <a href="#">Administration</a>
                 <a href="../insert/unos.html">Insert</a>
+                <a href="../login/login.php">Login</a>
             </nav>
         </div>
     </header>
@@ -36,7 +37,7 @@
     <main class="main__wrapper">
         <section class="main__firstSection">
             <?php
-            echo "<h2 class='categoryTitle'>All News ></h2>";
+            echo "<h2 class='categoryTitle'>All News - choose article to edit ></h2>";
             ?>
             <section class="main__firstSection_content">
                 <?php

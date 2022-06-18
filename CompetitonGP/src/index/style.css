@@ -240,7 +240,7 @@ a:hover.categoryTitle {
     border: 1px solid var(--color-alabaster);
     font-size: 18px;
 
-    transition: all 1 ease-in;
+    /* transition: all 1 ease-in; */
 }
 
 .form_reset {
@@ -269,6 +269,39 @@ a:hover.categoryTitle {
     text-align: center;
 }
 
+/***** LOGIN PAGE *****/
+.form__section_login, .form__section_register {
+    width: 300px;
+
+    background-color: var(--color-blackCoffee);
+    color: var(--color-white);
+    border-radius: 10px;
+    padding: 15px 15px;
+
+    font-size: 18px;
+    text-align: center;
+}
+
+.form__section_login h2, .form__section_register h2 {
+    padding-bottom: 10px;
+}
+
+.submitLogin {
+    width: 70%;
+    height: 40px;
+    margin-bottom: 15px;
+
+    background-color: var(--color-blackCoffee);
+    color: var(--color-alabaster);
+    border: 1px solid var(--color-alabaster);
+    font-size: 18px;
+
+    transition: all 1 ease-in;
+}
+
+.form__section_login a {
+    color: blue;
+}
 
 
 /***** Media Queries  *****/

@@ -3,7 +3,7 @@
 $serverAddress = 'localhost';
 $username = 'root';
 $password = '';
-$dbName = 'competitiongp_db';
+$dbName = 'pwa_competitiongp_db';
 
 $dbc = mysqli_connect($serverAddress, $username, $password, $dbName) or
     die("'Error connecting to MySQL server." . mysqli_connect_error());
